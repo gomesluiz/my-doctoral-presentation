@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T15:32:04.152Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="AMPSFgNQLXIeGUGerc_e" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T15:34:35.706Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mbmwrC7_4PVVO30Gc3cu" version="14.7.3" type="github">
   <diagram id="rEaAE6W3MdVFYjTv-hs0" name="Page-1">
     <mxGraphModel dx="782" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="ZYcaTlrTi4N9OeFvyv8d-7" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ4&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;What are the most common features used for bug report severity prediction?&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#4D4D4D;" parent="1" vertex="1">
           <mxGeometry x="80" y="610" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ZYcaTlrTi4N9OeFvyv8d-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.264;entryY=0.95;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#4D4D4D;strokeWidth=2;entryPerimeter=0;" parent="1" source="ZYcaTlrTi4N9OeFvyv8d-9" target="ZYcaTlrTi4N9OeFvyv8d-2" edge="1">
+        <mxCell id="ZYcaTlrTi4N9OeFvyv8d-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.371;entryY=0.993;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#4D4D4D;strokeWidth=2;entryPerimeter=0;" parent="1" source="ZYcaTlrTi4N9OeFvyv8d-9" target="ZYcaTlrTi4N9OeFvyv8d-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZYcaTlrTi4N9OeFvyv8d-9" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ5&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;What are the most common feature selection methods used for bug report severity prediction?&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#4D4D4D;" parent="1" vertex="1">
@@ -67,11 +67,11 @@
         <mxCell id="ZYcaTlrTi4N9OeFvyv8d-21" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;R11&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Which software tools were used to run experiments for bug report severity prediction?&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#4D4D4D;" parent="1" vertex="1">
           <mxGeometry x="326" y="40" width="144" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="ZYcaTlrTi4N9OeFvyv8d-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#4D4D4D;strokeWidth=2;exitX=0.858;exitY=0.917;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZYcaTlrTi4N9OeFvyv8d-23" target="ZYcaTlrTi4N9OeFvyv8d-2" edge="1">
+        <mxCell id="ZYcaTlrTi4N9OeFvyv8d-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#4D4D4D;strokeWidth=2;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZYcaTlrTi4N9OeFvyv8d-23" target="ZYcaTlrTi4N9OeFvyv8d-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZYcaTlrTi4N9OeFvyv8d-23" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ1&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#4d4d4d&quot;&gt;When and where have the studies been published?&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#4D4D4D;" parent="1" vertex="1">
-          <mxGeometry x="210" y="170" width="120" height="120" as="geometry" />
+          <mxGeometry x="200" y="170" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
