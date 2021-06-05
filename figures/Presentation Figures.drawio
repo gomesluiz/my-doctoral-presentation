@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T19:07:43.612Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qOI3TDEUp17qSShvLVZf" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T20:59:39.201Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="l0LHDpnM3BifD456gdcz" version="14.7.4" type="github" pages="2">
   <diagram id="rEaAE6W3MdVFYjTv-hs0" name="Page-1">
-    <mxGraphModel dx="1303" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,47 @@
         </mxCell>
         <mxCell id="ZYcaTlrTi4N9OeFvyv8d-23" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ1&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#4d4d4d&quot;&gt;&lt;b&gt;When and where have the studies been published?&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="360" y="340" width="130" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="En-77J-lTBhjjhiit9-w">
+    <mxGraphModel dx="782" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-0" />
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-1" parent="_Shi9udoqSfpwpe6vAHm-0" />
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-2" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Research&lt;br&gt;Questions&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;strokeColor=#666666;" vertex="1" parent="_Shi9udoqSfpwpe6vAHm-1">
+          <mxGeometry x="500" y="460" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#666666;" edge="1" parent="_Shi9udoqSfpwpe6vAHm-1" source="_Shi9udoqSfpwpe6vAHm-4" target="_Shi9udoqSfpwpe6vAHm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-4" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ14&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;How frequent are long-lived bugs in FLOSS projects?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fillColor=#FFCCFF;strokeColor=#666666;" vertex="1" parent="_Shi9udoqSfpwpe6vAHm-1">
+          <mxGeometry x="210" y="290" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.636;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=4;entryPerimeter=0;strokeColor=#666666;" edge="1" parent="_Shi9udoqSfpwpe6vAHm-1" source="_Shi9udoqSfpwpe6vAHm-6" target="_Shi9udoqSfpwpe6vAHm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-6" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ15&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;What are the main characteristics of long-lived bugs compared to short-lived bugs in FLOSS projects?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;strokeColor=#666666;" vertex="1" parent="_Shi9udoqSfpwpe6vAHm-1">
+          <mxGeometry x="280" y="510" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#666666;" edge="1" parent="_Shi9udoqSfpwpe6vAHm-1" source="_Shi9udoqSfpwpe6vAHm-8" target="_Shi9udoqSfpwpe6vAHm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-8" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ16&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;What is the comparative accuracy&amp;nbsp; of machine learning algorithms when predicting long-lived bugs?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fillColor=#FFCCFF;strokeColor=#666666;" vertex="1" parent="_Shi9udoqSfpwpe6vAHm-1">
+          <mxGeometry x="230" y="730" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.614;entryY=0.986;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=4;entryPerimeter=0;strokeColor=#666666;" edge="1" parent="_Shi9udoqSfpwpe6vAHm-1" source="_Shi9udoqSfpwpe6vAHm-10" target="_Shi9udoqSfpwpe6vAHm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-10" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ17&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;What are the main characteristics of bugs correctly predicted as long-lived and incorrectly predicted as short-lived?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;strokeColor=#666666;" vertex="1" parent="_Shi9udoqSfpwpe6vAHm-1">
+          <mxGeometry x="570" y="650" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#666666;" edge="1" parent="_Shi9udoqSfpwpe6vAHm-1" source="_Shi9udoqSfpwpe6vAHm-24" target="_Shi9udoqSfpwpe6vAHm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Shi9udoqSfpwpe6vAHm-24" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ13&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Is there a common understanding of what long-lived bugs are in the literature?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;strokeColor=#666666;fillColor=#FFCCFF;" vertex="1" parent="_Shi9udoqSfpwpe6vAHm-1">
+          <mxGeometry x="505" y="260" width="130" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
