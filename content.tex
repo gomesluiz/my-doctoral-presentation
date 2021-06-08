@@ -231,69 +231,162 @@
 
     \begin{columns}[T] % align columns
         \begin{column}{.33\textwidth}
+            \textbf{\scriptsize Eclipse}
             \begin{figure}
             \includegraphics[width=\textwidth]{figures/rq2-eclipse-balanced-accuracy.pdf}
             \end{figure}
         \end{column}
         \hfill
         \begin{column}{.33\textwidth}
+            \textbf{\scriptsize Freedesktop}
             \begin{figure}
             \includegraphics[width=\textwidth]{figures/rq2-freedesktop-balanced-accuracy.pdf}
             \end{figure}
         \end{column}
         \hfill
         \begin{column}{.33\textwidth}
+            \textbf{\scriptsize GCC}
             \begin{figure}
             \includegraphics[width=\textwidth]{figures/rq2-gcc-balanced-accuracy.pdf}
             \end{figure}
         \end{column}
     \end{columns}
-
+    \vspace{8pt}
     \begin{columns}[T] % align columns
         \begin{column}{.33\textwidth}
+            \textbf{\scriptsize Gnome}
             \begin{figure}
             \includegraphics[width=\textwidth]{figures/rq2-gnome-balanced-accuracy.pdf}
             \end{figure}
         \end{column}
         \hfill
         \begin{column}{.33\textwidth}
+            \textbf{\scriptsize Mozilla}
             \begin{figure}
             \includegraphics[width=\textwidth]{figures/rq2-mozilla-balanced-accuracy.pdf}
             \end{figure}
         \end{column}
         \hfill
         \begin{column}{.33\textwidth}
+            \textbf{\scriptsize WineHQ}
             \begin{figure}
             \includegraphics[width=\textwidth]{figures/rq2-winehq-balanced-accuracy.pdf}
             \end{figure}
         \end{column}
     \end{columns} 
-
 \end{frame}
 
-\begin{frame}[t, fragile]{Research Question 20}
+\begin{frame}[allowframebreaks, t, fragile]{Research Question 20}
     \begin{itemize}
-        \item Is there a common understanding of what long-lived bugs are in the literature?
+        \item What are the main characteristics of bugs correctly predicted as long-lived (True Positive) 
+        and incorrectly predicted as short-lived (False Negative) when using BERT- or TF-IDF -based feature 
+        extraction?
     \end{itemize}
 
-    \begin{figure}
-        \includegraphics[width=\textwidth]{figures/rq13-chart-result.pdf}
-    \end{figure}
-  
+    \begin{columns}[T] % align columns
+        \begin{column}{.48\textwidth}
+            \textbf{\scriptsize BERT}
+            \begin{figure}
+            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-top-reporter_name.pdf}
+            \end{figure}
+        \end{column}
+        \hfill
+        \begin{column}{.48\textwidth}
+            \textbf{\scriptsize TF-IDF}
+            \begin{figure}
+            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-top-reporter_name.pdf}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\framebreak
+    \begin{columns}[T] % align columns
+        \begin{column}{.48\textwidth}
+            \textbf{\scriptsize BERT}
+            \begin{figure}
+            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-top-assignee_name.pdf}
+            \end{figure}
+        \end{column}
+        \hfill
+        \begin{column}{.48\textwidth}
+            \textbf{\scriptsize TF-IDF}
+            \begin{figure}
+            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-top-assignee_name.pdf}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\framebreak
+    \begin{columns}[T] % align columns
+        \begin{column}{\textwidth}
+            \textbf{\scriptsize BERT}
+            \begin{figure}
+            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-reporter_name-vs-assignee_name.pdf}
+            \end{figure}
+        \end{column}
+    \end{columns}
+
+    \begin{columns}[T] % align columns
+        \begin{column}{\textwidth}
+            \textbf{\scriptsize TF-IDF}
+            \begin{figure}
+            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-reporter_name-vs-assignee_name.pdf}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \section{Conclusions}
 \begin{frame}[t,fragile]{Conclusions}
 \begin{itemize}
-\item Conclusion 1
-\item Conclusion 2
-\item Conclusion 3
+    \item Bug report severity relied on unstructured text attributes (\textit{summary} and \textit{description})
+    \item Traditional text mining (e.g. TF-IDF) and machine learning algorithms (e.g., K-NN, Näive Bayes).
 \end{itemize}
+\end{frame}
+
+\section{Contributions}
+\begin{frame}[allowframebreaks, t,fragile]{Contributions}
+\begin{itemize}
+    \item A categorization scheme to organize the experiments reported in papers on bug report severity prediction.
+    \item An overview of the state-of-the-art research by summarizing patterns, procedures, and methods employed by researches to predict bug report severity. 
+    \item A discussion of challenges, and open issues and future directions in this research field to share the vision and expand the horizon of bug report severity prediction. 
+    \item A characterization of long-lived bugs in relevant FLOSS projects;
+    \item An evaluation of the performance of different models in predicting long-lived bugs;
+    \item A characterization of how the number of terms will affect the prediction of long-lived bugs;
+    \item An identification of suitable values for the bug fixing time threshold and number of terms in the feature vector used to predict long-lived bugs.
+    \item A quantitative assessment of the performance of traditional ML algorithms using features extracted with BERT;
+    \item A quantitative performance comparison between BERT and TF-IDF for extracting features on the long-lived prediction task;
+    \item A discussion upon qualitative characteristics associated with bugs correctly and incorrectly classified in long-lived bugs prediction.
+    \item A detailed research protocol for long-lived prediction using machine learning approach. The code for implementing this protocol is available at \url{https://github.com/gomesluiz/long-lived-bug-deep-predictor.git} (As of May 2021) and in \url{https://github.com/ gomesluiz/long-lived-bug-predictor.git} (As of May 2021).
+    \item A dataset for long-lived bug prediction in FLOSS, available at \href{https://data.mendeley.com/datasets/v446tfssgj/2}{Mendeley Data} website~\cite{gomes:2021c}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks, t,fragile]{Published Contributions}
+    \begin{itemize}
+        \item Luiz Gomes, Ricardo Torres, and Mario Côrtes. Bug report severity level prediction
+        in open source software: A survey and research opportunities. Information and
+        Software Technology, 115:58–78, 2019.
+        \item Luiz Gomes, Ricardo Torres, and Mario Côrtes. On the prediction of long-lived bugs:
+        An analysis and comparative study using floss projects. Information and Software
+        Technology, 132:106508, 2021.
+        \item Luiz Gomes, Ricardo Torres, and Mario Côrtes. Bert-based feature extraction for
+        long-lived bug prediction in FLOSS. To be submitted, 2021.
+    \end{itemize}
+    \end{frame}
+
+\section{Future Work}
+\begin{frame}[allowframebreaks, t,fragile]{Future Works}
+\begin{itemize}
+    \item Investigating the impact of the temporal evolution of bug report information in severity level prediction accuracy, and investigating data structures to store the representation of this temporal evolution seems a suitable research venue.
+    \item Analyzing different bug report fields (e.g., bug reporter, assignee, and component) and including other data based on software engineering metrics would improve long-lived bug prediction. 
+    \item Investigating an end-to-end deep learning neural network predictor by performing fine-tuning on BERT pre-trained model in long-lived bug prediction.
+    \item Investigating other quantities and truncating methods (head-only, tail-only, and head+tail) for extracting words from the description attribute.
+    \item Investigating other repositories and other BTS and thus develop an approach that represents BTS data generally and uniformly as this would facilitate the development of a general-purpose ML-based long-lived bug prediction assistant.
+    \item Extending our research protocol for long-lived prediction to predict bug report's severity level.\end{itemize}
 \end{frame}
 
 \section{Acknowledgments}
 \begin{frame}[t,fragile]{Acknowledgments}
-\begin{itemize}
-\item Acknowledgments
-\end{itemize}
+    \begin{figure}
+        \includegraphics[width=\textwidth]{figures/thankful.png}
+    \end{figure}
 \end{frame}
