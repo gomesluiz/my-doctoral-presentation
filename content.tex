@@ -34,16 +34,26 @@
 
 {
     \pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress.jpg}
-    \usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
+    %\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
     \begin{frame}[t,fragile]{Context}
-        \begin{itemize}
-            \item Bug report duplication
-            \item \alert{Severity level assigment}
-            \item Assignee alocation
-            \item \alert{Bug fix time estimation}
-            \item Bug report priorization
-            \item Release plan building
-        \end{itemize}
+        
+		\begin{columns}[T] % align columns
+			\begin{column}{.49\textwidth}
+				\begin{itemize}
+					\item Bug report duplication
+					\item \alert{Severity level assigment}
+					\item Assignee allocation
+					\item \alert{Bug fix time estimation}
+					\item Bug report prioritization
+					\item Release plan building
+				\end{itemize}
+			\end{column}%
+			\hfill%
+			\begin{column}{.49\textwidth}
+				\centering
+				\includegraphics[width=1.1\textwidth]{figures/bug-reports-eclipse-june-21.jpg}
+			\end{column}%
+		\end{columns}
     \end{frame}
 }
 
@@ -58,7 +68,7 @@
 \begin{frame}[t,fragile]{Motivation}
     \begin{figure}
         \centering
-        \includegraphics[width=\textwidth]{figures/bug-fix-time-1.png}
+        \includegraphics[width=\textwidth]{figures/motivation-2.pdf}
     \end{figure}
 \end{frame}
 
@@ -84,7 +94,7 @@
 \subsection{Research Questions}
 \begin{frame}[t,fragile]{Research Questions}
     \begin{figure}
-        \includegraphics[width=.6\textwidth]{figures/goal-1-research-questions.pdf}
+        \includegraphics[width=.63\textwidth]{figures/goal-1-research-questions.pdf}
     \end{figure}
 \end{frame}
 
@@ -95,13 +105,10 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}[t, fragile]{Results and Discussions}
-	\begin{itemize}
-		\item RQ2 - most used FLOSS: Eclipse and Mozilla
-		\item RQ4 - most used features: Summary and Description
-		\item RQ6 - most used vector weighting model: TF-IDF
-		\item RQ7 - most used ML algorithms: K-NN and Naïve Bayes
-	\end{itemize}
+\begin{frame}[t,fragile]{Results and Discussions}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{figures/goal-1-research-results.pdf}
+	\end{figure}
 \end{frame}
 
 %\begin{frame}[t, fragile]{Results and Discussions}
@@ -126,11 +133,11 @@
 %    \begin{itemize}
 %        \item What are the most used text mining methods for bug report severity prediction?
 %    \end{itemize}
-    
+%    
 %    \begin{figure}
 %        \includegraphics[width=.6\textwidth]{figures/rq6-chart-result-vem.pdf}
 %    \end{figure}
-
+%
 %    \begin{figure}
 %        \includegraphics[width=.9\textwidth]{figures/rq6-chart-result-vwm.pdf}
 %    \end{figure}
@@ -158,40 +165,40 @@
 \subsection{Research Questions}
 \begin{frame}[t,fragile]{Research Questions}
     \begin{figure}
-        \includegraphics[width=.5\textwidth]{figures/goal-2-research-questions.pdf}
+        \includegraphics[width=.45\textwidth]{figures/goal-2-research-questions.pdf}
     \end{figure}
 \end{frame}
-'
+
 \subsection{Research Methodology}
-\begin{frame}{Research Methodology}
-    \begin{columns}[T] % align columns
-    \begin{column}{.33\textwidth}
-    \color{Bittersweet}\rule{\linewidth}{4pt}
-    Bibliography Revision
-    \begin{figure}
-        \includegraphics[width=.75\textwidth]{figures/goal-2-research-methodology-1.png}
-    \end{figure}
-    \end{column}%
-    \hfill%
-    \begin{column}{.33\textwidth}
-    \color{BrickRed}\rule{\linewidth}{4pt}
-    Data Analysis
-    \begin{figure}
-        \includegraphics[width=.60\textwidth]{figures/goal-2-research-methodology-2.pdf}
-    \end{figure}
-    
-    \end{column}%
-    \hfill%
-    \begin{column}{.33\textwidth}
-    \color{Sepia}\rule{\linewidth}{4pt}
-    Traditional ML pipeline
-    \begin{figure}
-        \includegraphics[width=\textwidth]{figures/goal-2-research-methodology-3.pdf}
-    \end{figure}
-    
-    \end{column}%
-    \end{columns}
-\end{frame}
+%\begin{frame}{Research Methodology}
+%    \begin{columns}[T] % align columns
+%    \begin{column}{.33\textwidth}
+%    \color{Bittersweet}\rule{\linewidth}{4pt}
+%    Bibliography Revision
+%    \begin{figure}
+%        \includegraphics[width=.75\textwidth]{figures/goal-2-research-methodology-1.png}
+%    \end{figure}
+%    \end{column}%
+%    \hfill%
+%    \begin{column}{.33\textwidth}
+%    \color{BrickRed}\rule{\linewidth}{4pt}
+%    Data Analysis
+%    \begin{figure}
+%        \includegraphics[width=.60\textwidth]{figures/goal-2-research-methodology-2.pdf}
+%    \end{figure}
+%    
+%    \end{column}%
+%    \hfill%
+%    \begin{column}{.33\textwidth}
+%    \color{Sepia}\rule{\linewidth}{4pt}
+%    Traditional ML pipeline
+%    \begin{figure}
+%        \includegraphics[width=\textwidth]{figures/goal-2-research-methodology-3.pdf}
+%    \end{figure}
+%    
+%    \end{column}%
+%    \end{columns}
+%\end{frame}
 
 \subsection{Research Methodology}
 \begin{frame}[t,fragile]{Research Methodology}
@@ -200,7 +207,15 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}[t, fragile]{Research Question 13}
+\subsection{Experimental Setup}
+\begin{frame}[c	,fragile]{Experimental Setup}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{figures/goal-2-experimental-setup-1.pdf}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}[t, fragile]{Results and Discussions}
     \begin{itemize}
         \item Is there a common understanding of what long-lived bugs are in the literature?
     \end{itemize}
@@ -211,27 +226,38 @@
   
 \end{frame}
 
-\begin{frame}[t, fragile]{Research Question 14}
-    \begin{itemize}
-        \item How frequent are long-lived bugs in FLOSS projects?
-    \end{itemize}
-
-    \begin{figure}
-        \includegraphics[width=.65\textwidth]{figures/rq14-chart-result.pdf}
-    \end{figure}
-  
-\end{frame}
-
-\begin{frame}[t, fragile]{Research Question 16}
-    \begin{itemize}
-        \item What is the comparative accuracy  of machine learning algorithms when predicting long-lived bugs?
-    \end{itemize}
-
-    \begin{figure}
-        \includegraphics[width=.9\textwidth]{figures/rq16-chart-result.png}
-    \end{figure}
-
-\end{frame}
+%\begin{frame}[t, fragile]{Research Question 13}
+%    \begin{itemize}
+%        \item Is there a common understanding of what long-lived bugs are in the literature?
+%    \end{itemize}
+%
+%    \begin{figure}
+%        \includegraphics[width=\textwidth]{figures/rq13-chart-result.pdf}
+%    \end{figure}
+%  
+%\end{frame}
+%
+%\begin{frame}[t, fragile]{Research Question 14}
+%    \begin{itemize}
+%        \item How frequent are long-lived bugs in FLOSS projects?
+%    \end{itemize}
+%
+%    \begin{figure}
+%        \includegraphics[width=.65\textwidth]{figures/rq14-chart-result.pdf}
+%    \end{figure}
+%  
+%\end{frame}
+%
+%\begin{frame}[t, fragile]{Research Question 16}
+%    \begin{itemize}
+%        \item What is the comparative accuracy  of machine learning algorithms when predicting long-lived bugs?
+%    \end{itemize}
+%
+%    \begin{figure}
+%        \includegraphics[width=.9\textwidth]{figures/rq16-chart-result.png}
+%    \end{figure}
+%
+%\end{frame}
 
 \section{Goal 3}
 \bgroup
