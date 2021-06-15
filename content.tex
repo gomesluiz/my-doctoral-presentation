@@ -28,17 +28,17 @@
 \begin{frame}[t,fragile]{Context}
     \begin{figure}
         \centering
-        \includegraphics[height=\paperheight, width=\textwidth]{figures/exemplo-bug-report-winehq.png}
+        \includegraphics[height=.65\paperheight, width=\textwidth]{figures/exemplo-bug-report-winehq.png}
     \end{figure}
 \end{frame}
 
 {
     \pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress.jpg}
-    %\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
+    \usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
     \begin{frame}[t,fragile]{Context}
         
 		\begin{columns}[T] % align columns
-			\begin{column}{.49\textwidth}
+			\begin{column}{\textwidth}
 				\begin{itemize}
 					\item Bug report duplication
 					\item \alert{Severity level assigment}
@@ -47,11 +47,8 @@
 					\item Bug report prioritization
 					\item Release plan building
 				\end{itemize}
-			\end{column}%
-			\hfill%
-			\begin{column}{.49\textwidth}
 				\centering
-				\includegraphics[width=1.1\textwidth]{figures/bug-reports-eclipse-june-21.jpg}
+				\includegraphics[width=.5\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
 			\end{column}%
 		\end{columns}
     \end{frame}
@@ -105,11 +102,33 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}[t,fragile]{Results and Discussions}
+\begin{frame}[t,fragile]{Results}
 	\begin{figure}
 		\includegraphics[width=\textwidth]{figures/goal-1-research-results.pdf}
 	\end{figure}
 \end{frame}
+
+%\section{Conclusions}
+\begin{frame}[t,fragile]{Discussions}
+	\begin{itemize}
+		\item Focus on few FLOSS most hosted on Bugzilla
+		\begin{itemize}
+			\item lack of relevant FLOSS and Bug Track Systems
+		\end{itemize}
+		\item Based text features: summary and description
+		\begin{itemize}
+			\item A central role of text mining methods
+		\end{itemize}
+		\item The most used method feature vector weighting was TF-IDF
+		\begin{itemize}
+			\item number of terms  used ranges from 25 to 125
+			\item many surveyed did not mention number of terms
+		\end{itemize}
+		\item Most papers applied at least one of the following well-known and traditional supervised algorithms
+		
+	\end{itemize}
+\end{frame}
+
 
 %\begin{frame}[t, fragile]{Results and Discussions}
 %    \begin{itemize}
@@ -221,6 +240,20 @@
 	\end{figure}
 \end{frame}
 
+\begin{frame}[allowframebreaks, t,fragile]{Discussions}
+	\begin{itemize}
+		\item No shared understanding of what long-lived bugs represent
+		\item Long-lived bugs percentage is relevant in investigated FLOSS
+		\begin{itemize}
+			\item it is higher in projects with fewer assignees
+		\end{itemize}
+		\item The balanced accuracy performance increased as the number of long-lived bugs increased, except for WineHQ
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=.8\textwidth]{figures/performace_algorithms_vs_percentage_of_long_lived.pdf}
+	\end{figure}
+\end{frame}
+
 %\begin{frame}[t, fragile]{Results and Discussions}
 %    \begin{itemize}
 %        \item Is there a common understanding of what long-lived bugs are in the literature?
@@ -292,7 +325,7 @@
 \subsection{Results and Discussions}
 \begin{frame}[t,fragile]{Results and Discussions}
 	\begin{figure}
-		\includegraphics[width=\textwidth]{figures/goal-2-research-results.pdf}
+		\includegraphics[width=\textwidth]{figures/goal-3-research-results.pdf}
 	\end{figure}
 \end{frame}
 
@@ -406,12 +439,11 @@
 %    \end{columns}
 %\end{frame}
 
-\section{Conclusions}
-\begin{frame}[t,fragile]{Conclusions}
+\section{Results and Discussions}
+\begin{frame}[t,fragile]{Results and Discussions}
 \begin{itemize}
-    \item Bug report severity relied on unstructured text attributes (\textit{summary} and \textit{description})
-    \item Traditional text mining (e.g. TF-IDF) and machine learning algorithms (e.g., K-NN, Näive Bayes).
-    \item 
+    \item Pré-trained network and contextual embedding and dense representation may have a superior generalization capability that can capture similarities among bugs of the same class
+    \item The accuracy performance from the bug reporter's perspective varied fairly among reporters
 \end{itemize}
 \end{frame}
 
@@ -419,17 +451,12 @@
 \begin{frame}[allowframebreaks, t,fragile]{Contributions}
 \begin{itemize}
     \item A categorization scheme to organize the experiments reported in papers on bug report severity prediction.
-    \item An overview of the state-of-the-art research by summarizing patterns, procedures, and methods employed by researches to predict bug report severity. 
     \item A discussion of challenges, and open issues and future directions in this research field to share the vision and expand the horizon of bug report severity prediction. 
     \item A characterization of long-lived bugs in relevant FLOSS projects;
     \item An evaluation of the performance of different models in predicting long-lived bugs;
-    \item A characterization of how the number of terms will affect the prediction of long-lived bugs;
-    \item An identification of suitable values for the bug fixing time threshold and number of terms in the feature vector used to predict long-lived bugs.
     \item A quantitative assessment of the performance of traditional ML algorithms using features extracted with BERT;
     \item A quantitative performance comparison between BERT and TF-IDF for extracting features on the long-lived prediction task;
-    \item A discussion upon qualitative characteristics associated with bugs correctly and incorrectly classified in long-lived bugs prediction.
-    \item A detailed research protocol for long-lived prediction using machine learning approach. The code for implementing this protocol is available at \url{https://github.com/gomesluiz/long-lived-bug-deep-predictor.git} (As of May 2021) and in \url{https://github.com/ gomesluiz/long-lived-bug-predictor.git} (As of May 2021).
-    \item A dataset for long-lived bug prediction in FLOSS, available at \href{https://data.mendeley.com/datasets/v446tfssgj/2}{Mendeley Data} website.
+%    \item A detailed research protocol for long-lived prediction using machine learning approach. The code for implementing this protocol is available at \url{https://github.com/gomesluiz/long-lived-bug-deep-predictor.git} (As of May 2021) and in \url{https://github.com/ gomesluiz/long-lived-bug-predictor.git} (As of May 2021).
 \end{itemize}
 \end{frame}
 
@@ -450,9 +477,7 @@
 \begin{frame}[allowframebreaks, t,fragile]{Future Works}
 \begin{itemize}
     \item Investigating the impact of the temporal evolution of bug report information in severity level prediction accuracy, and investigating data structures to store the representation of this temporal evolution seems a suitable research venue.
-    \item Analyzing different bug report fields (e.g., bug reporter, assignee, and component) and including other data based on software engineering metrics would improve long-lived bug prediction. 
     \item Investigating an end-to-end deep learning neural network predictor by performing fine-tuning on BERT pre-trained model in long-lived bug prediction.
-    \item Investigating other quantities and truncating methods (head-only, tail-only, and head+tail) for extracting words from the description attribute.
     \item Investigating other repositories and other BTS and thus develop an approach that represents BTS data generally and uniformly as this would facilitate the development of a general-purpose ML-based long-lived bug prediction assistant.
     \item Extending our research protocol for long-lived prediction to predict bug report's severity level.\end{itemize}
 \end{frame}
