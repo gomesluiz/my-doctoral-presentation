@@ -215,16 +215,22 @@
 \end{frame}
 
 
-\begin{frame}[t, fragile]{Results and Discussions}
-    \begin{itemize}
-        \item Is there a common understanding of what long-lived bugs are in the literature?
-    \end{itemize}
-
-    \begin{figure}
-        \includegraphics[width=\textwidth]{figures/rq13-chart-result.pdf}
-    \end{figure}
-  
+\begin{frame}[t,fragile]{Results and Discussions}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{figures/goal-2-research-results.pdf}
+	\end{figure}
 \end{frame}
+
+%\begin{frame}[t, fragile]{Results and Discussions}
+%    \begin{itemize}
+%        \item Is there a common understanding of what long-lived bugs are in the literature?
+%    \end{itemize}
+%
+%    \begin{figure}
+%        \includegraphics[width=\textwidth]{figures/rq13-chart-result.pdf}
+%    \end{figure}
+%  
+%\end{frame}
 
 %\begin{frame}[t, fragile]{Research Question 13}
 %    \begin{itemize}
@@ -283,115 +289,122 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}[t, fragile]{Research Question 19}
-    \begin{itemize}
-        \item What is the comparative accuracy of machine learning algorithms when predicting long-lived bugs using BERT-based feature extraction or TF-IDF-based feature extraction?
-    \end{itemize}
-
-    \begin{columns}[T] % align columns
-        \begin{column}{.33\textwidth}
-            \textbf{\scriptsize Eclipse}
-            \begin{figure}
-            \includegraphics[width=\textwidth]{figures/rq2-eclipse-balanced-accuracy.pdf}
-            \end{figure}
-        \end{column}
-        \hfill
-        \begin{column}{.33\textwidth}
-            \textbf{\scriptsize Freedesktop}
-            \begin{figure}
-            \includegraphics[width=\textwidth]{figures/rq2-freedesktop-balanced-accuracy.pdf}
-            \end{figure}
-        \end{column}
-        \hfill
-        \begin{column}{.33\textwidth}
-            \textbf{\scriptsize GCC}
-            \begin{figure}
-            \includegraphics[width=\textwidth]{figures/rq2-gcc-balanced-accuracy.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
-    \vspace{8pt}
-    \begin{columns}[T] % align columns
-        \begin{column}{.33\textwidth}
-            \textbf{\scriptsize Gnome}
-            \begin{figure}
-            \includegraphics[width=\textwidth]{figures/rq2-gnome-balanced-accuracy.pdf}
-            \end{figure}
-        \end{column}
-        \hfill
-        \begin{column}{.33\textwidth}
-            \textbf{\scriptsize Mozilla}
-            \begin{figure}
-            \includegraphics[width=\textwidth]{figures/rq2-mozilla-balanced-accuracy.pdf}
-            \end{figure}
-        \end{column}
-        \hfill
-        \begin{column}{.33\textwidth}
-            \textbf{\scriptsize WineHQ}
-            \begin{figure}
-            \includegraphics[width=\textwidth]{figures/rq2-winehq-balanced-accuracy.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns} 
+\subsection{Results and Discussions}
+\begin{frame}[t,fragile]{Results and Discussions}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{figures/goal-2-research-results.pdf}
+	\end{figure}
 \end{frame}
 
-\begin{frame}[allowframebreaks, t, fragile]{Research Question 20}
-    \begin{itemize}
-        \item What are the main characteristics of bugs correctly predicted as long-lived (True Positive) 
-        and incorrectly predicted as short-lived (False Negative) when using BERT- or TF-IDF -based feature 
-        extraction?
-    \end{itemize}
-
-    \begin{columns}[T] % align columns
-        \begin{column}{.48\textwidth}
-            \textbf{\scriptsize BERT}
-            \begin{figure}
-            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-top-reporter_name.pdf}
-            \end{figure}
-        \end{column}
-        \hfill
-        \begin{column}{.48\textwidth}
-            \textbf{\scriptsize TF-IDF}
-            \begin{figure}
-            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-top-reporter_name.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
-\framebreak
-    \begin{columns}[T] % align columns
-        \begin{column}{.48\textwidth}
-            \textbf{\scriptsize BERT}
-            \begin{figure}
-            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-top-assignee_name.pdf}
-            \end{figure}
-        \end{column}
-        \hfill
-        \begin{column}{.48\textwidth}
-            \textbf{\scriptsize TF-IDF}
-            \begin{figure}
-            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-top-assignee_name.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
-\framebreak
-    \begin{columns}[T] % align columns
-        \begin{column}{\textwidth}
-            \textbf{\scriptsize BERT}
-            \begin{figure}
-            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-reporter_name-vs-assignee_name.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
-
-    \begin{columns}[T] % align columns
-        \begin{column}{\textwidth}
-            \textbf{\scriptsize TF-IDF}
-            \begin{figure}
-            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-reporter_name-vs-assignee_name.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
-\end{frame}
+%\begin{frame}[t, fragile]{Research Question 19}
+%    \begin{itemize}
+%        \item What is the comparative accuracy of machine learning algorithms when predicting long-lived bugs using BERT-based feature extraction or TF-IDF-based feature extraction?
+%    \end{itemize}
+%
+%    \begin{columns}[T] % align columns
+%        \begin{column}{.33\textwidth}
+%            \textbf{\scriptsize Eclipse}
+%            \begin{figure}
+%            \includegraphics[width=\textwidth]{figures/rq2-eclipse-balanced-accuracy.pdf}
+%            \end{figure}
+%        \end{column}
+%        \hfill
+%        \begin{column}{.33\textwidth}
+%            \textbf{\scriptsize Freedesktop}
+%            \begin{figure}
+%            \includegraphics[width=\textwidth]{figures/rq2-freedesktop-balanced-accuracy.pdf}
+%            \end{figure}
+%        \end{column}
+%        \hfill
+%        \begin{column}{.33\textwidth}
+%            \textbf{\scriptsize GCC}
+%            \begin{figure}
+%            \includegraphics[width=\textwidth]{figures/rq2-gcc-balanced-accuracy.pdf}
+%            \end{figure}
+%        \end{column}
+%    \end{columns}
+%    \vspace{8pt}
+%    \begin{columns}[T] % align columns
+%        \begin{column}{.33\textwidth}
+%            \textbf{\scriptsize Gnome}
+%            \begin{figure}
+%            \includegraphics[width=\textwidth]{figures/rq2-gnome-balanced-accuracy.pdf}
+%            \end{figure}
+%        \end{column}
+%        \hfill
+%        \begin{column}{.33\textwidth}
+%            \textbf{\scriptsize Mozilla}
+%            \begin{figure}
+%            \includegraphics[width=\textwidth]{figures/rq2-mozilla-balanced-accuracy.pdf}
+%            \end{figure}
+%        \end{column}
+%        \hfill
+%        \begin{column}{.33\textwidth}
+%            \textbf{\scriptsize WineHQ}
+%            \begin{figure}
+%            \includegraphics[width=\textwidth]{figures/rq2-winehq-balanced-accuracy.pdf}
+%            \end{figure}
+%        \end{column}
+%    \end{columns} 
+%\end{frame}
+%
+%\begin{frame}[allowframebreaks, t, fragile]{Research Question 20}
+%    \begin{itemize}
+%        \item What are the main characteristics of bugs correctly predicted as long-lived (True Positive) 
+%        and incorrectly predicted as short-lived (False Negative) when using BERT- or TF-IDF -based feature 
+%        extraction?
+%    \end{itemize}
+%
+%    \begin{columns}[T] % align columns
+%        \begin{column}{.48\textwidth}
+%            \textbf{\scriptsize BERT}
+%            \begin{figure}
+%            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-top-reporter_name.pdf}
+%            \end{figure}
+%        \end{column}
+%        \hfill
+%        \begin{column}{.48\textwidth}
+%            \textbf{\scriptsize TF-IDF}
+%            \begin{figure}
+%            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-top-reporter_name.pdf}
+%            \end{figure}
+%        \end{column}
+%    \end{columns}
+%\framebreak
+%    \begin{columns}[T] % align columns
+%        \begin{column}{.48\textwidth}
+%            \textbf{\scriptsize BERT}
+%            \begin{figure}
+%            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-top-assignee_name.pdf}
+%            \end{figure}
+%        \end{column}
+%        \hfill
+%        \begin{column}{.48\textwidth}
+%            \textbf{\scriptsize TF-IDF}
+%            \begin{figure}
+%            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-top-assignee_name.pdf}
+%            \end{figure}
+%        \end{column}
+%    \end{columns}
+%\framebreak
+%    \begin{columns}[T] % align columns
+%        \begin{column}{\textwidth}
+%            \textbf{\scriptsize BERT}
+%            \begin{figure}
+%            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-bert-reporter_name-vs-assignee_name.pdf}
+%            \end{figure}
+%        \end{column}
+%    \end{columns}
+%
+%    \begin{columns}[T] % align columns
+%        \begin{column}{\textwidth}
+%            \textbf{\scriptsize TF-IDF}
+%            \begin{figure}
+%            \includegraphics[width=.9\textwidth]{figures/rq3-mozilla-tfidf-reporter_name-vs-assignee_name.pdf}
+%            \end{figure}
+%        \end{column}
+%    \end{columns}
+%\end{frame}
 
 \section{Conclusions}
 \begin{frame}[t,fragile]{Conclusions}
@@ -447,6 +460,6 @@
 \section{Acknowledgments}
 \begin{frame}[t,fragile]{Acknowledgments}
     \begin{figure}
-        \includegraphics[width=\textwidth]{figures/thankful.png}
+        \includegraphics[width=.6\textwidth]{figures/thanks.jpg}
     \end{figure}
 \end{frame}
