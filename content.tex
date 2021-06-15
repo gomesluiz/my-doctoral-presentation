@@ -341,10 +341,17 @@
 \end{frame}
 
 \section{Conclusions}
-\begin{frame}[t,fragile]{Conclusions}
+\begin{frame}[allowframebreaks, t,fragile]{Conclusions}
 \begin{itemize}
     \item Bug report severity relied on unstructured text attributes (\textit{summary} and \textit{description})
-    \item Traditional text mining (e.g. TF-IDF) and machine learning algorithms (e.g., K-NN, Näive Bayes).
+    \item And traditional text mining (e.g. TF-IDF) and machine learning algorithms (e.g., K-NN, Näive Bayes).
+    \item We observed no evidence of a shared understanding of what a long-lived bug is. 
+    \item Adopting a conservative threshold, we confirmed a significant percentage of long-lived bugs in the studied FLOSS projects and noted some differences between the population of long-lived and short-lived bugs. 
+    \item Furthermore, this threshold enabled the SVM (in training phase) and Neural Network (in testing phase) to yield a good balanced accuracy in long-lived bug prediction. 
+    \item Differences between long-lived bugs correctly predicted as long-lived bugs (true positives) and long-lived bugs incorrectly predicted as short-lived bugs (false negative) relied mainly on the terms used in the feature vectors and to the sparsity of the feature vector matrix.
+    \item We noted that the BERT feature extractor outperformed the TF-IDF feature extractor on long-lived bug prediction. 
+    \item Using the former method, the SVM and Random Forest were systematically better than themselves and other classifiers using the latter method. 
+    \item Also, We observed that the highest accuracy difference between the two methods occurred in Mozilla and the lowest in the Gnome project.
 \end{itemize}
 \end{frame}
 
