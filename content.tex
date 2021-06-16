@@ -33,11 +33,11 @@
 \end{frame}
 
 {
-    \pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress.jpg}
-    \usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
-    \begin{frame}[t,fragile]{Context}
-        
+		\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-1.jpg}
+						\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
+    \begin{frame}[t,fragile]{Context}    
 		\begin{columns}[T] % align columns
+%		
 			\begin{column}{\textwidth}
 				\begin{itemize}
 					\item Bug report duplication
@@ -47,12 +47,27 @@
 					\item Bug report prioritization
 					\item Release plan building
 				\end{itemize}
-				\centering
-				\includegraphics[width=.5\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
+%				\centering
+%				\includegraphics[width=.5\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
 			\end{column}%
+%			\begin{column}{.49\textwidth}
+%				\includegraphics[height=.8\textheight, width=\textwidth]{figures/bug-report-stress.jpg}
+%			\end{column}
+%			}
 		\end{columns}
     \end{frame}
 }
+
+{
+	\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-2.jpg}
+	\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
+	\begin{frame}[t,fragile]{Context} 
+		\begin{center}
+			\includegraphics[width=.75\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
+		\end{center}   
+	\end{frame}
+}
+
 
 \section{Motivation}
 \begin{frame}[t,fragile]{Motivation}
@@ -69,6 +84,7 @@
     \end{figure}
 \end{frame}
 
+
 \section{Research Goals}
 \begin{frame}[t,fragile]{Research Goals}
     \begin{itemize}
@@ -77,6 +93,14 @@
         \item Evaluate \alert{BERT-based feature extraction} in long-lived bug prediction in FLOSS.
     \end{itemize}
 \end{frame}
+
+\begin{frame}[t,fragile]{Thesis Organization}
+	\begin{figure}
+		\centering
+		\includegraphics[width=.9\textwidth]{figures/thesis-organization.pdf}
+	\end{figure}
+\end{frame}
+
 
 \section{Goal 1}
 \bgroup
@@ -91,7 +115,7 @@
 \subsection{Research Questions}
 \begin{frame}[t,fragile]{Research Questions}
     \begin{figure}
-        \includegraphics[width=.63\textwidth]{figures/goal-1-research-questions.pdf}
+        \includegraphics[width=\textwidth]{figures/goal-1-research-questions.pdf}
     \end{figure}
 \end{frame}
 
@@ -184,7 +208,7 @@
 \subsection{Research Questions}
 \begin{frame}[t,fragile]{Research Questions}
     \begin{figure}
-        \includegraphics[width=.45\textwidth]{figures/goal-2-research-questions.pdf}
+        \includegraphics[width=.85\textwidth]{figures/goal-2-research-questions.pdf}
     \end{figure}
 \end{frame}
 
