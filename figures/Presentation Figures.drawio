@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T20:30:54.223Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="Qni7ePb9eKg4i-uQtOSU" version="14.7.9" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-06-16T20:51:43.927Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="y6TekXTfl9_hrlKsEz56" version="14.7.9" type="github" pages="16">
   <diagram id="dUG7T6zr75kcQ7LtNhSs" name="context-1">
     <mxGraphModel dx="782" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -432,7 +432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="goal-3-rqs" id="SqlH25Sa1pb2xQAAfmzW">
-    <mxGraphModel dx="823" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Fgmfn1-HT-sTY0lDYCeL-0" />
         <mxCell id="Fgmfn1-HT-sTY0lDYCeL-1" parent="Fgmfn1-HT-sTY0lDYCeL-0" />
@@ -456,6 +456,35 @@
         </mxCell>
         <mxCell id="Fgmfn1-HT-sTY0lDYCeL-12" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;RQ18&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;What is the comparative accuracy of machine learning algorithms when predicting long-lived bugs using BERT-based feature extraction?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;strokeColor=#666666;fillColor=#FFFFFF;" parent="Fgmfn1-HT-sTY0lDYCeL-1" vertex="1">
           <mxGeometry x="500" y="190" width="177.5" height="177.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of goal-3-rqs" id="Y80WH8NKrDLob4n4Wo_S">
+    <mxGraphModel dx="782" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="HjslKXFJOyJk3HnGnWIG-0" />
+        <mxCell id="HjslKXFJOyJk3HnGnWIG-1" parent="HjslKXFJOyJk3HnGnWIG-0" />
+        <mxCell id="qBnnX1XycdSXCG-ZddGH-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="HjslKXFJOyJk3HnGnWIG-1" source="qBnnX1XycdSXCG-ZddGH-0" target="qBnnX1XycdSXCG-ZddGH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBnnX1XycdSXCG-ZddGH-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://tytrix.com/wp-content/uploads/2018/10/806210_question_512x512.png;" vertex="1" parent="HjslKXFJOyJk3HnGnWIG-1">
+          <mxGeometry x="430" y="383" width="202" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="qBnnX1XycdSXCG-ZddGH-1" value="&lt;font style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#006644&quot;&gt;RQ20&lt;/font&gt;&lt;font style=&quot;color: rgb(77 , 77 , 77) ; font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot; size=&quot;1&quot; style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;What are the main characteristics of bugs correctly predicted as long-lived (True Positive) and incorrectly predicted as short-lived (False Negative) when using BERT- or TF-IDF-based feature extraction?&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HjslKXFJOyJk3HnGnWIG-1">
+          <mxGeometry x="632" y="560" width="272.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qBnnX1XycdSXCG-ZddGH-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="HjslKXFJOyJk3HnGnWIG-1" source="qBnnX1XycdSXCG-ZddGH-2" target="qBnnX1XycdSXCG-ZddGH-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBnnX1XycdSXCG-ZddGH-2" value="&lt;font style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#006644&quot;&gt;RQ19&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; font-size: 15px&quot;&gt;What is the comparative accuracy of machine learning algorithms when predicting long-lived bugs using BERT-based feature extraction or TF-IDF-based feature extraction?&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HjslKXFJOyJk3HnGnWIG-1">
+          <mxGeometry x="100" y="400" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qBnnX1XycdSXCG-ZddGH-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="HjslKXFJOyJk3HnGnWIG-1" source="qBnnX1XycdSXCG-ZddGH-3" target="qBnnX1XycdSXCG-ZddGH-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBnnX1XycdSXCG-ZddGH-3" value="&lt;font style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#006644&quot;&gt;RQ18&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;What is the comparative accuracy of machine learning algorithms when predicting long-lived bugs using BERT-based feature extraction?&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HjslKXFJOyJk3HnGnWIG-1">
+          <mxGeometry x="500" y="240" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
