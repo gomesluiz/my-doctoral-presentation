@@ -126,9 +126,9 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}[t,fragile]{Results}
+\begin{frame}[t,fragile]{Results and Discussions}
 	\begin{center}
-		\includegraphics[width=1\textwidth]{figures/goal-1-research-results.pdf}
+		\includegraphics[width=\textwidth]{figures/goal-1-research-results.pdf}
 	\end{center}
 \end{frame}
 
@@ -153,6 +153,13 @@
 	\end{itemize}
 \end{frame}
 
+\section{Contributions}
+\begin{frame}[t,fragile]{Contributions}
+	\begin{itemize}
+		\item Categorization scheme to \alert{organize} the experiments 
+		\item \alert{Challenges}, and \alert{open issues} and \alert{future directions}
+	\end{itemize}
+\end{frame}
 
 %\begin{frame}[t, fragile]{Results and Discussions}
 %    \begin{itemize}
@@ -260,7 +267,7 @@
 
 \begin{frame}[t,fragile]{Results and Discussions}
 	\begin{figure}
-		\includegraphics[width=\textwidth]{figures/goal-2-research-results.pdf}
+		\includegraphics[width=1.1\textwidth]{figures/goal-2-research-results.pdf}
 	\end{figure}
 \end{frame}
 
@@ -278,6 +285,14 @@
 	\end{figure}
 \end{frame}
 
+\section{Contributions}
+\begin{frame}[t,fragile]{Contributions}
+	\begin{itemize}
+		\item \alert{Characterization} of long-lived bugs in FLOSS;
+		\item Evaluation of the \alert{performance} of machine learning algorithms
+		%    \item A detailed research protocol for long-lived prediction using machine learning approach. The code for implementing this protocol is available at \url{https://github.com/gomesluiz/long-lived-bug-deep-predictor.git} (As of May 2021) and in \url{https://github.com/ gomesluiz/long-lived-bug-predictor.git} (As of May 2021).
+	\end{itemize}
+\end{frame}
 %\begin{frame}[t, fragile]{Results and Discussions}
 %    \begin{itemize}
 %        \item Is there a common understanding of what long-lived bugs are in the literature?
@@ -332,13 +347,6 @@
 \end{frame}
 \egroup
 
-\subsection{Research Methodology}
-\begin{frame}[t,fragile]{Research Methodology}
-    \begin{figure}
-        \includegraphics[width=\textwidth]{figures/goal-3-research-methodology.pdf}
-    \end{figure}
-\end{frame}
-
 \subsection{Research Questions}
 \begin{frame}[t,fragile]{Research Questions}
     \begin{figure}
@@ -346,10 +354,17 @@
     \end{figure}
 \end{frame}
 
+\subsection{Research Methodology}
+\begin{frame}[t,fragile]{Research Methodology}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{figures/goal-3-research-methodology.pdf}
+	\end{figure}
+\end{frame}
+
 \subsection{Results and Discussions}
 \begin{frame}[t,fragile]{Results and Discussions}
 	\begin{figure}
-		\includegraphics[width=\textwidth]{figures/goal-3-research-results.pdf}
+		\includegraphics[width=.8\textwidth]{figures/goal-3-research-results.pdf}
 	\end{figure}
 \end{frame}
 
@@ -472,15 +487,10 @@
 \end{frame}
 
 \section{Contributions}
-\begin{frame}[allowframebreaks, t,fragile]{Contributions}
+\begin{frame}[t,fragile]{Contributions}
 \begin{itemize}
-    \item A categorization scheme to organize the experiments reported in papers on bug report severity prediction.
-    \item A discussion of challenges, and open issues and future directions in this research field to share the vision and expand the horizon of bug report severity prediction. 
-    \item A characterization of long-lived bugs in relevant FLOSS projects;
-    \item An evaluation of the performance of different models in predicting long-lived bugs;
-    \item A quantitative assessment of the performance of traditional ML algorithms using features extracted with BERT;
-    \item A quantitative performance comparison between BERT and TF-IDF for extracting features on the long-lived prediction task;
-%    \item A detailed research protocol for long-lived prediction using machine learning approach. The code for implementing this protocol is available at \url{https://github.com/gomesluiz/long-lived-bug-deep-predictor.git} (As of May 2021) and in \url{https://github.com/ gomesluiz/long-lived-bug-predictor.git} (As of May 2021).
+    \item Performance \alert{comparison} between BERT and TF-IDF on the long-lived prediction;
+    \item Research \alert{protocol} for long-lived prediction using machine learning approach. 
 \end{itemize}
 \end{frame}
 
@@ -498,12 +508,11 @@
     \end{frame}
 
 \section{Future Work}
-\begin{frame}[allowframebreaks, t,fragile]{Future Works}
+\begin{frame}[t,fragile]{Future Works}
 \begin{itemize}
-    \item Investigating the impact of the temporal evolution of bug report information in severity level prediction accuracy, and investigating data structures to store the representation of this temporal evolution seems a suitable research venue.
-    \item Investigating an end-to-end deep learning neural network predictor by performing fine-tuning on BERT pre-trained model in long-lived bug prediction.
-    \item Investigating other repositories and other BTS and thus develop an approach that represents BTS data generally and uniformly as this would facilitate the development of a general-purpose ML-based long-lived bug prediction assistant.
-    \item Extending our research protocol for long-lived prediction to predict bug report's severity level.\end{itemize}
+    \item Investigating the impact of \alert{the temporal evolution} of bug report information in severity level prediction accuracy
+    \item Investigating \alert{fine-tuning} on BERT pre-trained model in long-lived bug prediction.
+    \item \alert{Extending}	 our research protocol for long-lived prediction to predict bug report's severity level.\end{itemize}
 \end{frame}
 
 \section{Acknowledgments}
