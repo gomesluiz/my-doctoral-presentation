@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T13:53:30.632Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="IVuLvSsqdqa5kkZI9gBn" version="14.7.10" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-06-17T15:29:09.274Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="3fLpDL7BljIq_F9muPme" version="14.7.10" type="github" pages="16">
   <diagram id="dUG7T6zr75kcQ7LtNhSs" name="context-1">
     <mxGraphModel dx="782" dy="1317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -857,7 +857,7 @@
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-0" />
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-1" parent="KLV7SiGMvlPIlyRwFJ2b-0" />
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-3" value="&lt;font color=&quot;#ff8b00&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;RQ13: no shared undestanding of long-lived bugs&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#4D4D4D;" parent="KLV7SiGMvlPIlyRwFJ2b-1" vertex="1">
-          <mxGeometry x="-120" y="70" width="505" height="40" as="geometry" />
+          <mxGeometry x="-70" y="128.5" width="505" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=3;" parent="KLV7SiGMvlPIlyRwFJ2b-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -865,7 +865,7 @@
             <mxPoint x="161" y="184.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KLV7SiGMvlPIlyRwFJ2b-7" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashPattern=1 1;" parent="KLV7SiGMvlPIlyRwFJ2b-1" source="KLV7SiGMvlPIlyRwFJ2b-23" edge="1">
+        <mxCell id="KLV7SiGMvlPIlyRwFJ2b-7" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashPattern=1 1;" parent="KLV7SiGMvlPIlyRwFJ2b-1" source="KLV7SiGMvlPIlyRwFJ2b-23" target="y4ucARRmrAsUO-DyjDvg-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="401" y="275" as="sourcePoint" />
             <mxPoint x="127.5" y="140" as="targetPoint" />
@@ -873,8 +873,8 @@
         </mxCell>
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=3;" parent="KLV7SiGMvlPIlyRwFJ2b-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="635" as="sourcePoint" />
-            <mxPoint x="230" y="635" as="targetPoint" />
+            <mxPoint x="264.5" y="595.5" as="sourcePoint" />
+            <mxPoint x="264.5" y="595.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-11" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashPattern=1 1;entryX=0.228;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="KLV7SiGMvlPIlyRwFJ2b-1" source="KLV7SiGMvlPIlyRwFJ2b-23" target="KLV7SiGMvlPIlyRwFJ2b-15" edge="1">
@@ -884,13 +884,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-15" value="&lt;font color=&quot;#ff8b00&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;RQ16: 70%&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#4D4D4D;" parent="KLV7SiGMvlPIlyRwFJ2b-1" vertex="1">
-          <mxGeometry x="160" y="530" width="535" height="20" as="geometry" />
+          <mxGeometry x="194.5" y="490.5" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-16" value="&lt;div style=&quot;text-align: left ; font-size: 15px&quot;&gt;&lt;span&gt;Neural network, 150 terms of description, 365 as threshold in GCC project.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=#4D4D4D;" parent="KLV7SiGMvlPIlyRwFJ2b-1" vertex="1">
-          <mxGeometry x="160" y="572" width="265.5" height="50" as="geometry" />
+          <mxGeometry x="194.5" y="532.5" width="265.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KLV7SiGMvlPIlyRwFJ2b-19" value="&lt;font color=&quot;#ff8b00&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;RQ13: 7% - 40%&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#4D4D4D;" parent="KLV7SiGMvlPIlyRwFJ2b-1" vertex="1">
-          <mxGeometry x="670" y="60" width="535" height="20" as="geometry" />
+        <mxCell id="KLV7SiGMvlPIlyRwFJ2b-19" value="&lt;font color=&quot;#ff8b00&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;RQ13: 7% - 40%&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#4D4D4D;" parent="KLV7SiGMvlPIlyRwFJ2b-1" vertex="1">
+          <mxGeometry x="670" y="120" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KLV7SiGMvlPIlyRwFJ2b-20" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;dashPattern=1 1;" parent="KLV7SiGMvlPIlyRwFJ2b-1" target="KLV7SiGMvlPIlyRwFJ2b-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -902,60 +902,57 @@
           <mxGeometry x="370" y="178.5" width="312" height="312" as="geometry" />
         </mxCell>
         <mxCell id="y4ucARRmrAsUO-DyjDvg-0" value="&lt;span style=&quot;color: rgb(77, 77, 77); font-size: 15px;&quot;&gt;Two views of long-lived bugs based on absolute value or statistical distribution threshold.&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KLV7SiGMvlPIlyRwFJ2b-1">
-          <mxGeometry x="-110" y="100" width="520" height="20" as="geometry" />
+          <mxGeometry x="-60" y="158.5" width="520" height="20" as="geometry" />
         </mxCell>
         <mxCell id="y4ucARRmrAsUO-DyjDvg-2" value="&lt;span style=&quot;color: rgb(77 , 77 , 77)&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;is the frequency range of long-lived bugs in FLOSS projects. Higher in project with fewer assignees.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KLV7SiGMvlPIlyRwFJ2b-1">
-          <mxGeometry x="670" y="100" width="300" height="50" as="geometry" />
+          <mxGeometry x="670" y="128.5" width="300" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="goal-3-research-results" id="O01zp9mbyd_079b-0b_W">
-    <mxGraphModel dx="1951" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1951" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3oCJS0-E_dx1NG1ibGbc-0" />
         <mxCell id="3oCJS0-E_dx1NG1ibGbc-1" parent="3oCJS0-E_dx1NG1ibGbc-0" />
-        <mxCell id="3oCJS0-E_dx1NG1ibGbc-2" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 48px&quot;&gt;BERT outperformed TF-IDF&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#006644;" parent="3oCJS0-E_dx1NG1ibGbc-1" vertex="1">
-          <mxGeometry x="-130" y="40" width="656" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3oCJS0-E_dx1NG1ibGbc-3" value="systematically in most datasets for most machine learning algorithms as feature extractor." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#4D4D4D;" parent="3oCJS0-E_dx1NG1ibGbc-1" vertex="1">
-          <mxGeometry x="-115" y="108.5" width="700" height="70" as="geometry" />
+        <mxCell id="3oCJS0-E_dx1NG1ibGbc-2" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;RQ19: BERT outperformed TF-IDF&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#006644;" parent="3oCJS0-E_dx1NG1ibGbc-1" vertex="1">
+          <mxGeometry x="-60" y="150" width="330" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3oCJS0-E_dx1NG1ibGbc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=3;" parent="3oCJS0-E_dx1NG1ibGbc-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="161" y="184.5" as="sourcePoint" />
-            <mxPoint x="161" y="184.5" as="targetPoint" />
+            <mxPoint x="178" y="194.5" as="sourcePoint" />
+            <mxPoint x="178" y="194.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3oCJS0-E_dx1NG1ibGbc-5" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashPattern=1 1;" parent="3oCJS0-E_dx1NG1ibGbc-1" source="3oCJS0-E_dx1NG1ibGbc-13" target="3oCJS0-E_dx1NG1ibGbc-3" edge="1">
+        <mxCell id="3oCJS0-E_dx1NG1ibGbc-5" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashPattern=1 1;" parent="3oCJS0-E_dx1NG1ibGbc-1" source="3oCJS0-E_dx1NG1ibGbc-13" target="UT-dm4pl2Ob2qUE7j1L3-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="401" y="275" as="sourcePoint" />
-            <mxPoint x="131" y="170" as="targetPoint" />
+            <mxPoint x="57.5" y="178.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3oCJS0-E_dx1NG1ibGbc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=3;" parent="3oCJS0-E_dx1NG1ibGbc-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-34.5" y="605" as="sourcePoint" />
-            <mxPoint x="-34.5" y="605" as="targetPoint" />
+            <mxPoint x="7.5" y="605" as="sourcePoint" />
+            <mxPoint x="7.5" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3oCJS0-E_dx1NG1ibGbc-7" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashPattern=1 1;entryX=0.228;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3oCJS0-E_dx1NG1ibGbc-1" source="3oCJS0-E_dx1NG1ibGbc-13" target="3oCJS0-E_dx1NG1ibGbc-8" edge="1">
+        <mxCell id="3oCJS0-E_dx1NG1ibGbc-7" value="" style="endArrow=none;dashed=1;html=1;fontSize=69;fontColor=#4D4D4D;strokeColor=#4D4D4D;strokeWidth=2;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashPattern=1 1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3oCJS0-E_dx1NG1ibGbc-1" source="3oCJS0-E_dx1NG1ibGbc-13" target="3oCJS0-E_dx1NG1ibGbc-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="546" y="422" as="sourcePoint" />
             <mxPoint x="100" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3oCJS0-E_dx1NG1ibGbc-8" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 48px&quot;&gt;BERT performed better for Minor e Major&amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#006644;" parent="3oCJS0-E_dx1NG1ibGbc-1" vertex="1">
-          <mxGeometry x="-100" y="510" width="980" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="3oCJS0-E_dx1NG1ibGbc-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;fontSize=29;fontColor=#006644;strokeColor=#4D4D4D;strokeWidth=2;" parent="3oCJS0-E_dx1NG1ibGbc-1" source="3oCJS0-E_dx1NG1ibGbc-9" target="3oCJS0-E_dx1NG1ibGbc-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3oCJS0-E_dx1NG1ibGbc-9" value="&lt;div style=&quot;text-align: left ; font-size: 29px&quot;&gt;and TF-IDF performed better for critical and major for long-lived bugs prediction&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=#4D4D4D;" parent="3oCJS0-E_dx1NG1ibGbc-1" vertex="1">
-          <mxGeometry x="-100" y="570" width="925.5" height="70" as="geometry" />
+        <mxCell id="3oCJS0-E_dx1NG1ibGbc-8" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;RQ20: BERT performed better for Minor e Major&amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=69;fontColor=#006644;" parent="3oCJS0-E_dx1NG1ibGbc-1" vertex="1">
+          <mxGeometry x="-58" y="527" width="480" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3oCJS0-E_dx1NG1ibGbc-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn1.iconfinder.com/data/icons/sciences-1/128/128_science_laboratory_experiment_result_test-11-512.png;" parent="3oCJS0-E_dx1NG1ibGbc-1" vertex="1">
-          <mxGeometry x="290" y="190" width="312" height="312" as="geometry" />
+          <mxGeometry x="300" y="240" width="262" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="UT-dm4pl2Ob2qUE7j1L3-1" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;systematically in most datasets for most machine learning algorithms as feature extractor.&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3oCJS0-E_dx1NG1ibGbc-1">
+          <mxGeometry x="-58" y="190" width="335" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UT-dm4pl2Ob2qUE7j1L3-2" value="&lt;span style=&quot;color: rgb(77, 77, 77); font-size: 15px;&quot;&gt;and TF-IDF performed better for critical and major for long-lived bugs prediction&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3oCJS0-E_dx1NG1ibGbc-1">
+          <mxGeometry x="-58" y="570" width="460" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
