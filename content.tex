@@ -7,9 +7,11 @@
         \item Context
         \item Motivation
         \item Research Goals
+		\item Research Methods
         \item Research Questions
-        \item Research Methods
         \item Conclusions
+        \item Contributions
+        \item Future Works
         \item Acknowledgments
     \end{itemize}
 \end{frame}
@@ -35,7 +37,7 @@
 {
 		\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-1.jpg}
 						\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
-    \begin{frame}[t,fragile]{Context}    
+    \begin{frame}[t,fragile]{Triage Process}    
 		\begin{columns}[T] % align columns
 %		
 			\begin{column}{\textwidth}
@@ -45,7 +47,7 @@
 					\item Assignee allocation
 					\item \alert{Bug fix time estimation}
 					\item Bug report prioritization
-					\item Release plan building
+%					\item Release plan building
 				\end{itemize}
 %				\centering
 %				\includegraphics[width=.5\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
@@ -61,7 +63,7 @@
 {
 	\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-2.jpg}
 	\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
-	\begin{frame}[t,fragile]{Context} 
+	\begin{frame}[t,fragile]{Triage Process} 
 		\begin{center}
 			\includegraphics[width=.75\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
 		\end{center}   
@@ -84,13 +86,12 @@
     \end{figure}
 \end{frame}
 
-
 \section{Research Goals}
 \begin{frame}[t,fragile]{Research Goals}
     \begin{itemize}
-        \item Understand the \alert{state-of-the-art} in bug \alert{severity level prediction} researching in FLOSS.
-        \item Compare traditional ML algorithms in \alert{long-lived bug prediction} in FLOSS.
-        \item Evaluate \alert{BERT-based feature extraction} in long-lived bug prediction in FLOSS.
+        \item \colorbox{RoyalPurple}{\textcolor{White}{Goal 1}}: Understand the \alert{state-of-the-art} in bug \alert{severity level prediction} researching in FLOSS.
+        \item \colorbox{BurntOrange}{\textcolor{White}{Goal 2}}: Compare traditional ML algorithms in \alert{long-lived bug prediction} in FLOSS.
+        \item \colorbox{OliveGreen}{\textcolor{White}{Goal 3}}: Evaluate \alert{BERT-based feature extraction} in long-lived bug prediction in FLOSS.
     \end{itemize}
 \end{frame}
 
@@ -106,7 +107,7 @@
 \bgroup
 \begin{frame}[plain, c]{}
     \begin{center}
-        \LARGE GOAL 1:\\
+        \LARGE \colorbox{RoyalPurple}{\textcolor{White}{Goal 1}}:\\
         \Large Understand the \alert{state-of-the-art} in bug \alert{severity level prediction} researching in FLOSS.
     \end{center}
 \end{frame}
@@ -133,27 +134,38 @@
 \end{frame}
 
 %\section{Conclusions}
-\begin{frame}[t,fragile]{Discussions}
+%\begin{frame}[t,fragile]{Discussions}
+%	\begin{itemize}
+%		\item Focus on few FLOSS most hosted on Bugzilla
+%		\begin{itemize}
+%			\item lack of relevant FLOSS and Bug Track Systems
+%		\end{itemize}
+%		\item Based text features: summary and description
+%		\begin{itemize}
+%			\item A central role of text mining methods
+%		\end{itemize}
+%		\item The most used method feature vector weighting was TF-IDF
+%		\begin{itemize}
+%			\item number of terms  used ranges from 25 to 125
+%			\item many surveyed did not mention number of terms
+%		\end{itemize}
+%		\item Most papers applied at least one of the following well-known and traditional supervised algorithms
+%		
+%	\end{itemize}
+%\end{frame}
+
+\begin{frame}[t,fragile]{Conclusions}
 	\begin{itemize}
-		\item Focus on few FLOSS most hosted on Bugzilla
-		\begin{itemize}
-			\item lack of relevant FLOSS and Bug Track Systems
-		\end{itemize}
-		\item Based text features: summary and description
-		\begin{itemize}
-			\item A central role of text mining methods
-		\end{itemize}
-		\item The most used method feature vector weighting was TF-IDF
-		\begin{itemize}
-			\item number of terms  used ranges from 25 to 125
-			\item many surveyed did not mention number of terms
-		\end{itemize}
-		\item Most papers applied at least one of the following well-known and traditional supervised algorithms
-		
+ \item Lack of investigation of other relevant FLOSS and BTS such as, \alert{Linux Kernel} and \alert{Github}
+%\item Often, technical users report most bugs. Thus, the influence of user experience in predicting outcomes is still overlooked.  
+\item New efforts to handle \alert{``normal"} severity are necessary
+\item Recent text mining or data-driven feature engineering methods may likely \alert{improve} outcomes.
+\item Opportunity to investigate \alert{state-of-the-art} ML and DL algorithms
+\item Opportunity to investigate the \alert{impact} of the temporal evolution of a bug report information
 	\end{itemize}
 \end{frame}
 
-\section{Contributions}
+%\section{Contributions}
 \begin{frame}[t,fragile]{Contributions}
 	\begin{itemize}
 		\item Categorization scheme to \alert{organize} the experiments 
@@ -202,11 +214,10 @@
 %  \end{itemize}
 %\end{frame}
 
-\section{Goal 2}
 \bgroup
 \begin{frame}[plain, c]{}
     \begin{center}
-        \LARGE GOAL 2:\\
+        \LARGE \colorbox{BurntOrange}{\textcolor{White}{Goal 2}}\\
         \Large Compare traditional ML algorithms in \alert{long-lived bug prediction} in FLOSS.
     \end{center}
 \end{frame}
@@ -267,22 +278,39 @@
 
 \begin{frame}[t,fragile]{Results and Discussions}
 	\begin{figure}
-		\includegraphics[width=1.1\textwidth]{figures/goal-2-research-results.pdf}
+		\includegraphics[width=1\textwidth]{figures/goal-2-research-results.pdf}
 	\end{figure}
 \end{frame}
 
-\begin{frame}[allowframebreaks, t,fragile]{Discussions}
-	\begin{itemize}
-		\item No shared understanding of what long-lived bugs represent
-		\item Long-lived bugs percentage is relevant in investigated FLOSS
-		\begin{itemize}
-			\item it is higher in projects with fewer assignees
-		\end{itemize}
-		\item The balanced accuracy performance increased as the number of long-lived bugs increased, except for WineHQ
-	\end{itemize}
+\begin{frame}[t,fragile]{Results and Discussions}
 	\begin{figure}
 		\includegraphics[width=.8\textwidth]{figures/performace_algorithms_vs_percentage_of_long_lived.pdf}
 	\end{figure}
+\end{frame}
+
+%\begin{frame}[allowframebreaks, t,fragile]{Discussions}
+%	\begin{itemize}
+%		\item No shared understanding of what long-lived bugs represent
+%		\item Long-lived bugs percentage is relevant in investigated FLOSS
+%		\begin{itemize}
+%			\item it is higher in projects with fewer assignees
+%		\end{itemize}
+%		\item The balanced accuracy performance increased as the number of long-lived bugs increased, except for WineHQ
+%	\end{itemize}
+%	\begin{figure}
+%		\includegraphics[width=.8\textwidth]{figures/performace_algorithms_vs_percentage_of_long_lived.pdf}
+%	\end{figure}
+%\end{frame}
+\begin{frame}[t,fragile]{Conclusions}
+	\begin{itemize}
+		\item \alert{Relevant} percentage of long-lived bugs	  
+		\item \alert{Differences} between short-lived population and long-lived population
+		\item \alert{Shortage} of resources in projects with the greatest number of long-lived bugs
+		\item Correctly vs. incorrectly long-lived bugs predicted 
+		\begin{itemize}
+			\item \alert{terms} and \alert{sparsity} of the feature vector matrix
+		\end{itemize} 
+	\end{itemize}
 \end{frame}
 
 \section{Contributions}
@@ -341,7 +369,7 @@
 \bgroup
 \begin{frame}[plain, c]{}
     \begin{center}
-        \LARGE Goal 3\\
+        \LARGE \colorbox{OliveGreen}{\textcolor{White}{Goal 3}}\\
         \Large Evaluate \alert{BERT-based feature extraction} in long-lived bug prediction in FLOSS.
     \end{center}
 \end{frame}
@@ -478,12 +506,20 @@
 %    \end{columns}
 %\end{frame}
 
-\section{Results and Discussions}
-\begin{frame}[t,fragile]{Results and Discussions}
-\begin{itemize}
-    \item Pré-trained network and contextual embedding and dense representation may have a superior generalization capability that can capture similarities among bugs of the same class
-    \item The accuracy performance from the bug reporter's perspective varied fairly among reporters
-\end{itemize}
+%\section{Results and Discussions}
+%\begin{frame}[t,fragile]{Results and Discussions}
+%\begin{itemize}
+%    \item Pré-trained network and contextual embedding and dense representation may have a superior generalization capability that can capture similarities among bugs of the same class
+%    \item The accuracy performance from the bug reporter's perspective varied fairly among reporters
+%\end{itemize}
+%\end{frame}
+\begin{frame}[t,fragile]{Conclusions}
+	\begin{itemize}		
+		\item The accuracy of ML algorithms using BERT-based feature extraction was very promising. 
+		%\item The highest accuracy difference occurred in Mozilla and the lowest in the Gnome project~($RQ_{19}$).
+		\item We observed that the accuracy from these attributes' perspectives somewhat varied, analyzing each feature extracting strategy separately or comparing them together.
+ 
+	\end{itemize}
 \end{frame}
 
 \section{Contributions}
@@ -513,6 +549,24 @@
     \item Investigating the impact of \alert{the temporal evolution} of bug report information in severity level prediction accuracy
     \item Investigating \alert{fine-tuning} on BERT pre-trained model in long-lived bug prediction.
     \item \alert{Extending}	 our research protocol for long-lived prediction to predict bug report's severity level.\end{itemize}
+\end{frame}
+
+%\begin{frame}[t,fragile]{Conclusions}
+%	\begin{itemize}		
+%		\item The accuracy of ML algorithms using BERT-based feature extraction was very promising. 
+%		%\item The highest accuracy difference occurred in Mozilla and the lowest in the Gnome project~($RQ_{19}$).
+%		\item We observed that the accuracy from these attributes' perspectives somewhat varied, analyzing each feature extracting strategy separately or comparing them together.
+% 
+%	\end{itemize}
+%\end{frame}
+
+\begin{frame}[t,fragile]{Final Conclusions}
+	\begin{itemize}		
+		\item There are promising research opportunities both in severity level and long-lived bug prediction
+		\item Severity level and long-lived automating are valuable for maintainers, managers and users
+		\item Machine learning and text mining methods are clear paths to accomplish such automating  
+		
+	\end{itemize}
 \end{frame}
 
 \section{Acknowledgments}
