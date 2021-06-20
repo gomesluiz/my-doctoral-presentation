@@ -2,21 +2,11 @@
     \titlepage
 \end{frame}
 
-\begin{frame}[t,fragile]{Outline}
-    \begin{itemize}
-        \item Context
-        \item Motivation
-        \item Research Goals
-		\item Research Methods
-        \item Research Questions
-        \item Conclusions
-        \item Contributions
-        \item Future Works
-        \item Acknowledgments
-    \end{itemize}
+\begin{frame}{Outline}
+    \tableofcontents
 \end{frame}
 
-\section{Context}
+\section{Context and Motivation}
 {
 \usebackgroundtemplate{\includegraphics[height=\paperheight, width=\paperwidth]{figures/world-map.jpg}}
 \begin{frame}[c,fragile]{Context}
@@ -35,43 +25,33 @@
 \end{frame}
 
 {
-		\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-1.jpg}
-						\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
-    \begin{frame}[t,fragile]{Triage Process}    
-		\begin{columns}[T] % align columns
-%		
-			\begin{column}{\textwidth}
-				\begin{itemize}
-					\item Bug report duplication
-					\item \alert{Severity level assigment}
-					\item Assignee allocation
-					\item \alert{Bug fix time estimation}
-					\item Bug report prioritization
-%					\item Release plan building
+\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-1.jpg}
+\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
+\begin{frame}[t,fragile]{Triage Process}    
+    \begin{columns}[T] % align columns
+	    \begin{column}{\textwidth}
+			\begin{itemize}
+			    \item Bug report duplication
+				\item \alert{Severity level assigment}
+				\item Assignee allocation
+				\item \alert{Bug fix time estimation}
+				\item Bug report prioritization
 				\end{itemize}
-%				\centering
-%				\includegraphics[width=.5\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
 			\end{column}%
-%			\begin{column}{.49\textwidth}
-%				\includegraphics[height=.8\textheight, width=\textwidth]{figures/bug-report-stress.jpg}
-%			\end{column}
-%			}
 		\end{columns}
-    \end{frame}
+\end{frame}
 }
 
 {
-	\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-2.jpg}
-	\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
-	\begin{frame}[t,fragile]{Triage Process} 
-		\begin{center}
-			\includegraphics[width=.75\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
-		\end{center}   
-	\end{frame}
+\pgfdeclareimage[height=\paperheight, width=\paperwidth]{bugreportstress}{figures/bug-report-stress-2.jpg}
+\usebackgroundtemplate{\tikz\node[opacity=0.3, inner sep=0]{\pgfuseimage{bugreportstress}};}
+\begin{frame}[t,fragile]{Triage Process} 
+	\begin{center}
+	    \includegraphics[width=.75\textwidth]{figures/bug-reports-eclipse-june-21.pdf}
+	\end{center}   
+\end{frame}
 }
 
-
-\section{Motivation}
 \begin{frame}[t,fragile]{Motivation}
     \begin{figure}
         \centering
@@ -86,7 +66,7 @@
     \end{figure}
 \end{frame}
 
-\section{Research Goals}
+\section{Goals 1, 2 and 3}
 \begin{frame}[t,fragile]{Research Goals}
     \begin{itemize}
         \item \colorbox{RoyalPurple}{\textcolor{White}{Goal 1}}: Understand the \alert{state-of-the-art} in bug \alert{severity level prediction} researching in FLOSS.
@@ -95,6 +75,7 @@
     \end{itemize}
 \end{frame}
 
+\subsection{Thesis Organization}
 \begin{frame}[t,fragile]{Thesis Organization}
 	\begin{figure}
 		\centering
@@ -103,7 +84,6 @@
 \end{frame}
 
 
-\section{Goal 1}
 \bgroup
 \begin{frame}[plain, c]{}
     \begin{center}
@@ -113,20 +93,20 @@
 \end{frame}
 \egroup
 
-\subsection{Research Questions}
+\subsection{Questions and Methodology}
 \begin{frame}[t,fragile]{Research Questions}
     \begin{figure}
         \includegraphics[width=\textwidth]{figures/goal-1-research-questions.pdf}
     \end{figure}
 \end{frame}
 
-\subsection{Research Methodology}
 \begin{frame}[t,fragile]{Research Methodology}
     \begin{figure}
         \includegraphics[width=.9\textwidth]{figures/goal-1-research-methodology.pdf}
     \end{figure}
 \end{frame}
 
+\subsection{Results and Discussions}
 \begin{frame}[t,fragile]{Results and Discussions}
 	\begin{center}
 		\includegraphics[width=\textwidth]{figures/goal-1-research-results.pdf}
@@ -154,6 +134,7 @@
 %	\end{itemize}
 %\end{frame}
 
+\subsection{Lessons Learned and Contributions}
 \begin{frame}[t,fragile]{Conclusions}
 	\begin{itemize}
  \item Lack of investigation of other relevant FLOSS and BTS such as, \alert{Linux Kernel} and \alert{Github}
@@ -223,15 +204,12 @@
 \end{frame}
 \egroup
 
-
-\subsection{Research Questions}
 \begin{frame}[t,fragile]{Research Questions}
     \begin{figure}
         \includegraphics[width=.9\textwidth]{figures/goal-2-research-questions.pdf}
     \end{figure}
 \end{frame}
 
-\subsection{Research Methodology}
 %\begin{frame}{Research Methodology}
 %    \begin{columns}[T] % align columns
 %    \begin{column}{.33\textwidth}
@@ -262,14 +240,13 @@
 %    \end{columns}
 %\end{frame}
 
-\subsection{Research Methodology}
 \begin{frame}[t,fragile]{Research Methodology}
     \begin{figure}
         \includegraphics[width=.8\textwidth]{figures/goal-2-research-methodology-3.pdf}
     \end{figure}
 \end{frame}
 
-\subsection{Experimental Setup}
+%\subsection{Experimental Setup}
 \begin{frame}[c	,fragile]{Experimental Setup}
 	\begin{figure}
 		\includegraphics[width=\textwidth]{figures/goal-2-experimental-setup-1.pdf}
@@ -314,7 +291,7 @@
 	\end{itemize}
 \end{frame}
 
-\section{Contributions}
+%\section{Contributions}
 \begin{frame}[t,fragile]{Contributions}
 	\begin{itemize}
 		\item \alert{Characterization} of long-lived bugs in FLOSS;
@@ -546,7 +523,7 @@
     \end{frame}
 
 \section{Future Work}
-\begin{frame}[t,fragile]{Future Works}
+\begin{frame}[t,fragile]{Future Work}
 \begin{itemize}
     \item Investigating the impact of \alert{the temporal evolution} of bug report information in severity level prediction accuracy
     \item Investigating \alert{fine-tuning} on BERT pre-trained model in long-lived bug prediction.
@@ -562,7 +539,8 @@
 %	\end{itemize}
 %\end{frame}
 
-\begin{frame}[t,fragile]{Final Conclusions}
+\section{Conclusions}
+\begin{frame}[t,fragile]{Conclusions}
 	\begin{itemize}		
 		\item There are promising research \alert{opportunities} both in severity level and long-lived bug prediction
 		\item Severity level and long-lived \alert{automating} are valuable for maintainers, managers and users
@@ -570,7 +548,6 @@
 	\end{itemize}
 \end{frame}
 
-\section{Acknowledgments}
 \begin{frame}[t,fragile]{Acknowledgments}
     \begin{figure}
         \includegraphics[width=.6\textwidth]{figures/thanks.jpg}
